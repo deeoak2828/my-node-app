@@ -1,0 +1,23 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "Node app for EKS cluster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deeoak2828/my-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deeoak2828/my-node-app/issues"
+  },
+  "homepage": "https://github.com/deeoak2828/my-node-app#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
