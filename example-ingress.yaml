@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: example-ingress
-  namespace: default    # Change this if your app is deployed in another namespace.
+  namespace: dev    # Change this if your app is deployed in another namespace.
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
@@ -14,6 +14,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: my-service   # Replace with your service name.
+            name: my-node-app-service   # Replace with your service name.
             port:
               number: 80
