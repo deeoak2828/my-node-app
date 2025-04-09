@@ -1,0 +1,62 @@
+  1  aws --version
+    2  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    3  unzip awscliv2.zip
+    4  sudo ./aws/install
+    5  cd ./
+    6  ls -a
+    7  cd aws'=
+    8  cd aws
+    9  ls
+   10  cd install
+   11  ls -ltr
+   12  ./install
+   13  aws --version
+   14  aws --version
+   15  aws ls s3
+   16  clear
+   17  pwd
+   18  aws configure
+   19  git clone https://github.com/deeoak2828/my-node-app.git
+   20  cd my-node-app/
+   21  ls
+   22  vi index.js
+   23  cat index.js
+   24  npm install
+   25  nom --version
+   26  npm -v
+   27  node --version
+   28  node --version
+   29  exit
+   30  set KUBECONFIG=C:\kube\config
+   31  aws eks update-kubeconfig --region us-east-2 --name slvr-us-east-2-eks-blue
+   32  aws config --list
+   33  aws configure --list
+   34  aws configure list
+   35  aws eks update-kubeconfig --region us-east-2 --name slvr-us-east-2-eks-blue
+   36  curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+   37  git add .
+   38  git commit -m "add new files"
+   39  git push
+   40  kubectl get namespaces
+   41  kubect get pods -n ingress-nginx
+   42  kubectl get pods -n ingress-nginx
+   43  kubectl get nodes
+   44  kubectl get pods -n dev
+   45  kubectl get nodes
+   46  kubectl get pods -n dev
+   47  kubectl get pods -n ingress-nginx
+   48  kubectl get svc --namespace ingress-nginx
+   49  kubectl get pods -n dev
+   50  kubectl get service -n dev
+   51  kubectl get svc -n dev
+   52  npm install
+   53  git pull
+   54  npm start
+   55  kubectl get svc --namespace dev
+   56  kubectl get pods -n dev
+   57  kubectl get deployments -n dev
+   58  kubectl apply -f deployment.yml
+   59  kubectl apply -f deployment.yaml
+   60  kubectl apply -f service.yaml
+   61  kubectl get svc -n dev
+   62  history
