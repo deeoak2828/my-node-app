@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: nodejs.my.node.app.example.com
+  - host: nodejs.my.node.app.deepak2828.com
     http:
       paths:
       - path: /
