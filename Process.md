@@ -187,6 +187,4 @@ Hello from Node.js!
    - Use `nslookup` or `dig` to ensure your domain resolves correctly:
      ```bash
      nslookup nodejs.my.node.app.deepak2828.com
-     ```
-
 
