@@ -93,10 +93,10 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: nodejs.my.node.app.deepak2828.com
+  - host: .dev.nodejs.my.node.app.deepak2828.com
     http:
       paths:
-      - path: /
+      - path: /app1
         pathType: Prefix
         backend:
           service:
