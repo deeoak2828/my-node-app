@@ -1,14 +1,14 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: example-ingress
-  namespace: dev
+  name: qa-ingress
+  namespace: qa
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
   rules:
-  - host: dev.nodejs.my.node.app.deepak2828.com
+  - host: qa.nodejs.my.node.app.deepak2828.com
     http:
       paths:
       - path: /app1

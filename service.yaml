@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: my-node-app-service
-  namespace: dev
+  namespace: qa
 spec:
   type: ClusterIP  # Change from LoadBalancer to ClusterIP
   selector:
