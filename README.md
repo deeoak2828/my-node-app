@@ -97,3 +97,4 @@ nslookup nodejs.my.node.app.deepak2828.com
 Save the file and exit. In the terminal, you can save and close the file in nano by pressing CTRL + O, then Enter, and finally CTRL + X.
 
 
+curl -H "Host: qa.nodejs.my.node.app.deepak2828.com" http://k8s-ingressn-ingressn-529eec9849-5c7aa9b6b0bbd22b.elb.us-east-2.amazonaws.com/app1
